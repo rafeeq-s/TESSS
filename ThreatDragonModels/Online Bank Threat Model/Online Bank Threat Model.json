@@ -1005,7 +1005,7 @@
                   "severity": "High",
                   "type": "Tampering",
                   "description": "Attackers modify or manipulate stored data.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "○ Gunakan enkripsi untuk data yang tersimpan.\n○ Terapkan pemeriksaan integritas.\n○ Batasi akses hanya untuk personel yang berwenang.",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 5,
@@ -1013,7 +1013,7 @@
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
+                "tampering": 3,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0
@@ -1391,7 +1391,7 @@
                   "severity": "Medium",
                   "type": "Tampering",
                   "description": "Attackers manipulate HTTP responses.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "- Gunakan autentikasi multi-faktor (MFA).\n- Implementasikan CAPTCHA.\n- Perbarui token autentikasi secara berkala.",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 3,
@@ -1400,7 +1400,7 @@
               ],
               "trustBoundaryIds": [],
               "threatFrequency": {
-                "tampering": 1,
+                "tampering": 2,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
@@ -1815,7 +1815,7 @@
                   "severity": "High",
                   "type": "Information disclosure",
                   "description": "Sensitive data is intercepted or exposed during\ntransmission.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "○ Gunakan enkripsi untuk data dalam transit.\n○ Hindari mengirim data sensitif dalam parameter URL.\n○ Batasi akses hanya untuk personel yang berwenang.",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 4,
@@ -1825,7 +1825,7 @@
               "trustBoundaryIds": [],
               "threatFrequency": {
                 "tampering": 0,
-                "informationDisclosure": 1,
+                "informationDisclosure": 2,
                 "denialOfService": 0
               }
             },
@@ -1843,7 +1843,11 @@
             },
             "vertices": [
               {
-                "x": 350,
+                "x": 370,
+                "y": 440
+              },
+              {
+                "x": 310,
                 "y": 440
               }
             ]
