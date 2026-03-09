@@ -1,0 +1,20 @@
+{
+  "version": "2.6.0",
+  "summary": {
+    "title": "Online Shop",
+    "owner": "Rafiq",
+    "description": "Membuat Threat Modeling Pada Skenario Sistem Pembayaran Dalam Online Shop",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Cyber Engineer"
+      }
+    ],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Yves Amos",
+    "threatTop": 0
+  }
+}
