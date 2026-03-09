@@ -23,8 +23,8 @@
         "cells": [
           {
             "position": {
-              "x": 110,
-              "y": 80
+              "x": 100,
+              "y": 79.99999999999994
             },
             "size": {
               "width": 112.5,
@@ -140,7 +140,7 @@
           },
           {
             "position": {
-              "x": 110,
+              "x": 100,
               "y": 220
             },
             "size": {
@@ -734,8 +734,8 @@
           },
           {
             "position": {
-              "x": 792,
-              "y": 80
+              "x": 732,
+              "y": 79.99999999999994
             },
             "size": {
               "width": 120,
@@ -858,7 +858,7 @@
           },
           {
             "position": {
-              "x": 792,
+              "x": 992,
               "y": 220
             },
             "size": {
@@ -982,7 +982,7 @@
           },
           {
             "position": {
-              "x": 792,
+              "x": 997,
               "y": 370
             },
             "size": {
@@ -1839,6 +1839,40 @@
               {
                 "x": 670,
                 "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Web Server Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Web Server Boundary"
+            ],
+            "id": "25fb1e6b-7f6a-4f5d-b71f-438bc7009ba8",
+            "source": {
+              "x": 240,
+              "y": 20
+            },
+            "target": {
+              "x": 340,
+              "y": 620
+            },
+            "vertices": [
+              {
+                "x": 310,
+                "y": 290
               }
             ]
           }
