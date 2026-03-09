@@ -12,8 +12,19 @@
         "name": "Cyber Engineer"
       }
     ],
-    "diagrams": [],
-    "diagramTop": 0,
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Online Shop",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.0",
+        "cells": [],
+        "description": "Online Shop STRIDE"
+      }
+    ],
+    "diagramTop": 1,
     "reviewer": "Yves Amos",
     "threatTop": 0
   }
