@@ -1,0 +1,16 @@
+{
+  "version": "2.6.0",
+  "summary": {
+    "title": "Online Bank Threat Model",
+    "owner": "Rafiq",
+    "description": "Institusi keuangan yang mengembangkan\naplikasi perbankan online baru, dengan fokus pada pemodelan ancaman dan\nkerentanannya.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Yves Amos",
+    "threatTop": 0
+  }
+}
