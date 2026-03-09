@@ -1629,6 +1629,61 @@
                 "button-remove",
                 "vertices",
                 "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
                 "target-arrowhead"
               ],
               "name": null
@@ -1860,19 +1915,53 @@
             "labels": [
               "Web Server Boundary"
             ],
-            "id": "25fb1e6b-7f6a-4f5d-b71f-438bc7009ba8",
+            "id": "20c18263-af59-474c-9e41-280f600e22f9",
             "source": {
-              "x": 240,
-              "y": 20
+              "x": 230,
+              "y": 40
             },
             "target": {
-              "x": 340,
-              "y": 620
+              "x": 220,
+              "y": 540
             },
             "vertices": [
               {
-                "x": 310,
-                "y": 290
+                "x": 290,
+                "y": 280
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "3fe34781-f94b-489a-9732-ae30250c177d",
+            "source": {
+              "x": 910,
+              "y": 30
+            },
+            "target": {
+              "x": 930,
+              "y": 510
+            },
+            "vertices": [
+              {
+                "x": 880,
+                "y": 270
               }
             ]
           }
