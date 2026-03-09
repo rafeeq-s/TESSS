@@ -35,8 +35,8 @@
                 "text": "Website Dev"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -133,9 +133,27 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "42ee2491-f35b-4135-bc4b-a5194fd5ff18",
+                  "title": "User Impersonation",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Threat actors impersonate legitimate users to gain\nunauthorized access.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -734,8 +752,8 @@
           },
           {
             "position": {
-              "x": 732,
-              "y": 79.99999999999994
+              "x": 792,
+              "y": 80
             },
             "size": {
               "width": 120,
@@ -1359,6 +1377,10 @@
             },
             "vertices": [
               {
+                "x": 420,
+                "y": 190
+              },
+              {
                 "x": 390,
                 "y": 200
               }
@@ -1368,7 +1390,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -1389,13 +1412,32 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
+              "threats": [
+                {
+                  "id": "f56d2485-251d-403d-8b46-0d9297754f66",
+                  "title": "HTTP Request Manipulation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Attackers manipulate HTTP requests.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             },
             "labels": [
               "HTTP Request"
@@ -1411,8 +1453,12 @@
             },
             "vertices": [
               {
-                "x": 350,
+                "x": 320,
                 "y": 160
+              },
+              {
+                "x": 400,
+                "y": 140
               }
             ]
           },
@@ -1910,6 +1956,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Yves Amos",
-    "threatTop": 0
+    "threatTop": 2
   }
 }
